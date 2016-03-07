@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBFCouplesViewController" customModule="BBF" customModuleProvider="target">
@@ -15,47 +15,35 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okC-zF-nCK">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
-                    <color key="backgroundColor" red="0.61168435809999999" green="0.83440588289999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ke-iy-XTi">
+                    <rect key="frame" x="0.0" y="291" width="320" height="277"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.41568627450000001" blue="0.43921568630000002" alpha="1" colorSpace="deviceRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="284" id="yGV-cG-jWU"/>
+                        <constraint firstAttribute="height" constant="277" id="VSH-Ow-Nwd"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                    <state key="normal" title="Boy">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="boyButtonAction:" destination="-1" eventType="touchUpInside" id="aig-Tf-9GY"/>
-                    </connections>
+                    <state key="normal" title="Button"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIT-wO-b0K">
-                    <rect key="frame" x="0.0" y="284" width="320" height="284"/>
-                    <color key="backgroundColor" red="1" green="0.41842178819999998" blue="0.45433635160000002" alpha="1" colorSpace="calibratedRGB"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHb-kH-W0v">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="291"/>
+                    <color key="backgroundColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="284" id="oYm-lb-uvv"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="291" id="2qj-aN-wce"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                    <state key="normal" title="Girl">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="girlButtonAction:" destination="-1" eventType="touchUpInside" id="oGw-9S-GMc"/>
-                    </connections>
+                    <state key="normal" title="Button"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="NIT-wO-b0K" firstAttribute="trailing" secondItem="okC-zF-nCK" secondAttribute="trailing" id="0vT-zM-jl9"/>
-                <constraint firstItem="NIT-wO-b0K" firstAttribute="top" secondItem="okC-zF-nCK" secondAttribute="bottom" id="3eF-Fa-kN0"/>
-                <constraint firstItem="NIT-wO-b0K" firstAttribute="leading" secondItem="okC-zF-nCK" secondAttribute="leading" id="6T4-p8-JR4"/>
-                <constraint firstItem="okC-zF-nCK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7oI-wL-D5M"/>
-                <constraint firstItem="okC-zF-nCK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8pn-4H-r3E"/>
-                <constraint firstAttribute="bottom" secondItem="NIT-wO-b0K" secondAttribute="bottom" id="af6-4b-uJB"/>
-                <constraint firstAttribute="trailing" secondItem="NIT-wO-b0K" secondAttribute="trailing" id="gGR-kL-EF3"/>
+                <constraint firstItem="hHb-kH-W0v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OlT-jA-rhO"/>
+                <constraint firstAttribute="trailing" secondItem="6ke-iy-XTi" secondAttribute="trailing" id="djG-XQ-eqk"/>
+                <constraint firstItem="6ke-iy-XTi" firstAttribute="trailing" secondItem="hHb-kH-W0v" secondAttribute="trailing" id="l5j-5d-71Q"/>
+                <constraint firstItem="hHb-kH-W0v" firstAttribute="leading" secondItem="6ke-iy-XTi" secondAttribute="leading" id="noZ-Nh-5qu"/>
+                <constraint firstAttribute="bottom" secondItem="6ke-iy-XTi" secondAttribute="bottom" id="qg9-Jd-Bq4"/>
+                <constraint firstItem="hHb-kH-W0v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qrc-bw-NSI"/>
+                <constraint firstItem="6ke-iy-XTi" firstAttribute="top" secondItem="hHb-kH-W0v" secondAttribute="bottom" id="xnn-LH-YQd"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="551" y="399"/>
+            <point key="canvasLocation" x="768" y="407"/>
         </view>
     </objects>
 </document>
