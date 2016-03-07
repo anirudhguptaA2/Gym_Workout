@@ -12,7 +12,6 @@
 		070FAE531C8845AD00815964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070FAE521C8845AD00815964 /* Assets.xcassets */; };
 		070FAE561C8845AD00815964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070FAE541C8845AD00815964 /* LaunchScreen.storyboard */; };
 		070FAE6B1C8849C800815964 /* BBFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAE691C8849C800815964 /* BBFHomeViewController.swift */; };
-		070FAE6C1C8849C800815964 /* BBFHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070FAE6A1C8849C800815964 /* BBFHomeViewController.xib */; };
 		070FAE6F1C8849DB00815964 /* BBFCouplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAE6D1C8849DB00815964 /* BBFCouplesViewController.swift */; };
 		070FAE701C8849DB00815964 /* BBFCouplesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070FAE6E1C8849DB00815964 /* BBFCouplesViewController.xib */; };
 		070FAE731C8849EB00815964 /* BBFBoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAE711C8849EB00815964 /* BBFBoyViewController.swift */; };
@@ -44,7 +43,6 @@
 		070FAE551C8845AD00815964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		070FAE571C8845AD00815964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070FAE691C8849C800815964 /* BBFHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBFHomeViewController.swift; sourceTree = "<group>"; };
-		070FAE6A1C8849C800815964 /* BBFHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBFHomeViewController.xib; sourceTree = "<group>"; };
 		070FAE6D1C8849DB00815964 /* BBFCouplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBFCouplesViewController.swift; sourceTree = "<group>"; };
 		070FAE6E1C8849DB00815964 /* BBFCouplesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBFCouplesViewController.xib; sourceTree = "<group>"; };
 		070FAE711C8849EB00815964 /* BBFBoyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBFBoyViewController.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				070FAE7B1C88516F00815964 /* Leopard2.mov */,
-				070FAE6A1C8849C800815964 /* BBFHomeViewController.xib */,
 				070FAE6E1C8849DB00815964 /* BBFCouplesViewController.xib */,
 				070FAE721C8849EB00815964 /* BBFBoyViewController.xib */,
 				070FAE761C8849F900815964 /* BBFGirlViewController.xib */,
@@ -221,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				070FAE701C8849DB00815964 /* BBFCouplesViewController.xib in Resources */,
-				070FAE6C1C8849C800815964 /* BBFHomeViewController.xib in Resources */,
 				0726CD011C8957D800411AFF /* GirlWorkoutViewController.xib in Resources */,
 				BC21F2C41C8D83AF00BCF516 /* fitness-818722_640.jpg in Resources */,
 				0726CCFD1C8957C700411AFF /* GirlExercisesViewController.xib in Resources */,
