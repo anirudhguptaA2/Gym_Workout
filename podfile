@@ -6,4 +6,5 @@ use_frameworks!
 target 'BBF' do
 pod 'FontBlaster'
 pod 'AFNetworking', '~> 2.5'
+pod 'Bond', '~> 4.0'
 end

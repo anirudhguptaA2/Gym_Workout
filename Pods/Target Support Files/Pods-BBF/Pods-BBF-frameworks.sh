@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-BBF/AFNetworking.framework"
+  install_framework "Pods-BBF/Bond.framework"
   install_framework "Pods-BBF/FontBlaster.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BBF/AFNetworking.framework"
+  install_framework "Pods-BBF/Bond.framework"
   install_framework "Pods-BBF/FontBlaster.framework"
 fi

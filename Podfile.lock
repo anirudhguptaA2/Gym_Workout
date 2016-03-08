@@ -20,14 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Bond (4.3.0)
   - FontBlaster (2.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - Bond (~> 4.0)
   - FontBlaster
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Bond: ebe2364b18130690083cbceff036420b21494ae4
   FontBlaster: c34e4c00314f86b2256440d66b19adfceaefae1e
 
 COCOAPODS: 0.39.0
