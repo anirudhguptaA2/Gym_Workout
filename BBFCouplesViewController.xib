@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBFCouplesViewController" customModule="BBF" customModuleProvider="target">
             <connections>
+                <outlet property="boysImageView" destination="3PW-7t-OR0" id="bDz-Mg-GQi"/>
+                <outlet property="girlsImageView" destination="ZeI-Wh-k3n" id="Q2b-qe-brT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,35 +17,55 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ke-iy-XTi">
-                    <rect key="frame" x="0.0" y="291" width="320" height="277"/>
-                    <color key="backgroundColor" red="0.94509803920000002" green="0.41568627450000001" blue="0.43921568630000002" alpha="1" colorSpace="deviceRGB"/>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fitness-818722_640" translatesAutoresizingMaskIntoConstraints="NO" id="3PW-7t-OR0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                    <gestureRecognizers/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="277" id="VSH-Ow-Nwd"/>
+                        <constraint firstAttribute="width" constant="320" id="WND-Ag-zdI"/>
+                        <constraint firstAttribute="height" constant="284" id="xIT-VR-DQ7"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHb-kH-W0v">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="291"/>
-                    <color key="backgroundColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="MAR-SQ-0P6" appends="YES" id="ktY-TS-Ueb"/>
+                    </connections>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="athlete-457064_1280-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZeI-Wh-k3n">
+                    <rect key="frame" x="0.0" y="284" width="320" height="284"/>
+                    <gestureRecognizers/>
                     <constraints>
-                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="291" id="2qj-aN-wce"/>
+                        <constraint firstAttribute="width" constant="320" id="9Fj-GO-Vhi"/>
+                        <constraint firstAttribute="height" constant="284" id="tOc-cb-reI"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
-                </button>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="RES-dP-lGz" appends="YES" id="f0r-CA-Zfp"/>
+                    </connections>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="hHb-kH-W0v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OlT-jA-rhO"/>
-                <constraint firstAttribute="trailing" secondItem="6ke-iy-XTi" secondAttribute="trailing" id="djG-XQ-eqk"/>
-                <constraint firstItem="6ke-iy-XTi" firstAttribute="trailing" secondItem="hHb-kH-W0v" secondAttribute="trailing" id="l5j-5d-71Q"/>
-                <constraint firstItem="hHb-kH-W0v" firstAttribute="leading" secondItem="6ke-iy-XTi" secondAttribute="leading" id="noZ-Nh-5qu"/>
-                <constraint firstAttribute="bottom" secondItem="6ke-iy-XTi" secondAttribute="bottom" id="qg9-Jd-Bq4"/>
-                <constraint firstItem="hHb-kH-W0v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qrc-bw-NSI"/>
-                <constraint firstItem="6ke-iy-XTi" firstAttribute="top" secondItem="hHb-kH-W0v" secondAttribute="bottom" id="xnn-LH-YQd"/>
+                <constraint firstItem="ZeI-Wh-k3n" firstAttribute="top" secondItem="3PW-7t-OR0" secondAttribute="bottom" id="2m5-Sx-VYW"/>
+                <constraint firstItem="3PW-7t-OR0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8Ol-1o-R5S"/>
+                <constraint firstAttribute="bottom" secondItem="ZeI-Wh-k3n" secondAttribute="bottom" id="Ahh-uI-xWc"/>
+                <constraint firstItem="ZeI-Wh-k3n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LDX-T2-qB8"/>
+                <constraint firstAttribute="trailing" secondItem="3PW-7t-OR0" secondAttribute="trailing" id="OHK-yN-LOJ"/>
+                <constraint firstAttribute="trailing" secondItem="ZeI-Wh-k3n" secondAttribute="trailing" id="dSl-Qp-w1l"/>
+                <constraint firstItem="3PW-7t-OR0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fVf-XD-KXM"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="768" y="407"/>
         </view>
+        <tapGestureRecognizer id="MAR-SQ-0P6">
+            <connections>
+                <action selector="boysExerciseViewController:" destination="-1" id="wFF-Hy-uBf"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="RES-dP-lGz">
+            <connections>
+                <action selector="girlsExerciseViewController:" destination="-1" id="zgP-pb-nZ4"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
+    <resources>
+        <image name="athlete-457064_1280-1" width="851" height="1280"/>
+        <image name="fitness-818722_640" width="640" height="414"/>
+    </resources>
 </document>

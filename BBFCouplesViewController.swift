@@ -10,6 +10,10 @@ import UIKit
 
 class BBFCouplesViewController: UIViewController {
 
+    @IBOutlet weak var boysImageView: UIImageView!
+    @IBOutlet weak var girlsImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,14 +25,12 @@ class BBFCouplesViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func boyButtonAction(sender: AnyObject) {
+    @IBAction func boysExerciseViewController(sender: AnyObject) {
         let bbfBoyViewController = BBFBoyViewController()
         presentViewController(bbfBoyViewController , animated: true, completion: nil)
     }
     
-    
-    @IBAction func girlButtonAction(sender: AnyObject) {
+    @IBAction func girlsExerciseViewController(sender: AnyObject) {
         let bbfGirlViewController = BBFGirlViewController()
         presentViewController(bbfGirlViewController , animated: true, completion: nil)
     }
