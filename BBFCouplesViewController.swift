@@ -26,13 +26,11 @@ class BBFCouplesViewController: UIViewController {
     }
     
     @IBAction func boysExerciseViewController(sender: AnyObject) {
-        let bbfBoyViewController = BBFBoyViewController()
-        presentViewController(bbfBoyViewController , animated: true, completion: nil)
+        performSegueWithIdentifier("BoyViewController", sender: self)
     }
     
     @IBAction func girlsExerciseViewController(sender: AnyObject) {
-        let bbfGirlViewController = BBFGirlViewController()
-        presentViewController(bbfGirlViewController , animated: true, completion: nil)
+        performSegueWithIdentifier("GirlViewController", sender: self)
     }
     
     
