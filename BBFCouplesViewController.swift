@@ -17,19 +17,28 @@ class BBFCouplesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+
     }
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
+
+    func boysExerciseViewController(sender: AnyObject) {
+        performSegueWithIdentifier("BoyViewController", sender: self)
     }
-     override func viewWillDisappear(animated: Bool) {
+    
+    func girlsExerciseViewController(sender: AnyObject) {
+        performSegueWithIdentifier("GirlViewController", sender: self)
+    }
+        
+     func viewWillDisappear(animated: Bool) {
         self.navigationController?.navigationBarHidden = false
 
     }
-    override func viewWillLayoutSubviews() {
+    func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
     }
-    override func didReceiveMemoryWarning() {
+    func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
               // Dispose of any resources that can be recreated.
     }
@@ -42,4 +51,5 @@ class BBFCouplesViewController: UIViewController {
 //       self.performSegueWithIdentifier("GirlViewController", sender: self)
 //    }
  
+}
 }
