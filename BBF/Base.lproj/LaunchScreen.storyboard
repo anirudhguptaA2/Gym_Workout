@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +15,42 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="L2h-OO-Gky">
+                                <rect key="frame" x="-5" y="0.0" width="329" height="568"/>
+                                <color key="backgroundColor" red="0.27450980392156865" green="0.50980392156862742" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GYM WorkKit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHi-QB-7iu">
+                                <rect key="frame" x="95" y="220" width="131" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="FNI-nn-u7X"/>
+                                    <constraint firstAttribute="width" constant="131" id="rEw-U1-UiQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" red="0.85913936335562646" green="0.98468750066851662" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bHi-QB-7iu" firstAttribute="centerX" secondItem="L2h-OO-Gky" secondAttribute="centerX" constant="1" id="EjL-S8-hZg"/>
+                            <constraint firstItem="L2h-OO-Gky" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Vtk-5X-whT"/>
+                            <constraint firstItem="bHi-QB-7iu" firstAttribute="centerY" secondItem="L2h-OO-Gky" secondAttribute="centerY" id="nHm-n2-gJD"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="L2h-OO-Gky" secondAttribute="bottom" id="orj-io-YDk"/>
+                            <constraint firstItem="L2h-OO-Gky" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-21" id="u8T-8G-Ch5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="L2h-OO-Gky" secondAttribute="trailing" constant="-20" id="zAh-uf-eJt"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="384" y="390"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="download.jpeg" width="225" height="225"/>
+    </resources>
 </document>

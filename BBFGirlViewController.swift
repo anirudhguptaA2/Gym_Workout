@@ -10,10 +10,12 @@ import UIKit
 
 class BBFGirlViewController: UIViewController {
 
-    @IBOutlet weak var segmentControl: UISegmentedControl!
+    
+    @IBOutlet weak var girlsSegment: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+         self.navigationController?.navigationBarHidden = false
         // Do any additional setup after loading the view.
     }
 
@@ -48,7 +50,7 @@ extension BBFGirlViewController : UITableViewDataSource , UITableViewDelegate {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell")
         
-        switch (self.segmentControl.selectedSegmentIndex){
+        switch (self.girlsSegment.selectedSegmentIndex){
         case 0:
             print("case 0")
         case 1:
@@ -59,5 +61,5 @@ extension BBFGirlViewController : UITableViewDataSource , UITableViewDelegate {
         
         return cell!
     }
-    
+
 }

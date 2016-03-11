@@ -13,27 +13,33 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <segue destination="t5Y-De-KdR" kind="show" identifier="BoyViewController" id="fWD-Yy-14B"/>
-                        <segue destination="jew-aR-nUI" kind="push" identifier="GirlViewController" id="92E-kw-jaR"/>
+                        <segue destination="jew-aR-nUI" kind="push" identifier="GirlViewController" id="4F8-u2-DXo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jkE-h5-DVQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="-172"/>
+            <point key="canvasLocation" x="-365" y="-278"/>
         </scene>
         <!--Boy View Controller-->
         <scene sceneID="SxC-uY-Gfy">
             <objects>
-                <viewController id="t5Y-De-KdR" customClass="BBFBoyViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="mjI-Wo-uVy"/>
+                <viewController storyboardIdentifier="menuViewController" id="t5Y-De-KdR" customClass="BBFBoyViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mjI-Wo-uVy">
+                        <barButtonItem key="leftBarButtonItem" image="1454501465Hamburger" style="plain" id="UWN-f6-gKz">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="boyMenuButton:" destination="t5Y-De-KdR" id="7Yf-Bt-Dos"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <segue destination="8e7-Iv-Uvx" kind="push" identifier="BoyExercisesViewController" id="oOE-sn-sht"/>
-                        <segue destination="xcZ-Ap-xTr" kind="push" identifier="BoyWorkoutViewController" id="qoY-OR-uUp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3v-S1-485" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="-172"/>
+            <point key="canvasLocation" x="77" y="-552"/>
         </scene>
         <!--Boy Exercises View Controller-->
         <scene sceneID="N2M-Ux-8Pf">
@@ -44,54 +50,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4g1-9T-sHH" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="-484"/>
-        </scene>
-        <!--Boy Workout View Controller-->
-        <scene sceneID="ONQ-2m-E4N">
-            <objects>
-                <viewController id="xcZ-Ap-xTr" customClass="BoyWorkoutViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Xeo-qy-8Zb"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R5t-U0-Xd0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="860" y="166"/>
+            <point key="canvasLocation" x="472" y="-552"/>
         </scene>
         <!--Girl View Controller-->
         <scene sceneID="GCi-Nj-Utz">
             <objects>
                 <viewController id="jew-aR-nUI" customClass="BBFGirlViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="39t-Tq-69P"/>
+                    <navigationItem key="navigationItem" id="39t-Tq-69P">
+                        <barButtonItem key="leftBarButtonItem" image="1454501465Hamburger" id="wLb-UW-aAP">
+                            <color key="tintColor" red="0.035294117649999998" green="0.4823529412" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <segue destination="u4S-UJ-ah2" kind="push" identifier="GirlExercisesViewController" id="rRc-hi-o25"/>
-                        <segue destination="Oem-n9-z4o" kind="push" identifier="GirlWorkoutViewController" id="DEs-CZ-QSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGO-yL-afR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="541"/>
+            <point key="canvasLocation" x="85" y="159"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="eFv-HW-Oyn">
             <objects>
-                <viewController id="X7S-8H-kuu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="leftViewController" id="X7S-8H-kuu" customClass="MenuViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K8f-Xs-wnA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1482" y="870"/>
-        </scene>
-        <!--Girl Workout View Controller-->
-        <scene sceneID="phe-1W-7nZ">
-            <objects>
-                <viewController id="Oem-n9-z4o" customClass="GirlWorkoutViewController" customModule="BBF" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="wOZ-OI-LJv"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cAa-Q0-7BL" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-249" y="1296"/>
+            <point key="canvasLocation" x="-365" y="-900"/>
         </scene>
         <!--Girl Exercises View Controller-->
         <scene sceneID="snf-Qz-5U6">
@@ -102,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jMY-YU-3G1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134" y="1296"/>
+            <point key="canvasLocation" x="505" y="167"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7Nn-gH-d0D">
@@ -121,7 +108,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zZR-pt-9op" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-486" y="-172"/>
+            <point key="canvasLocation" x="-768" y="-278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1454501465Hamburger" width="88" height="88"/>
+    </resources>
 </document>

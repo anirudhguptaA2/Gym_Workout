@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBFGirlViewController" customModule="BBF" customModuleProvider="target">
             <connections>
-                <outlet property="segmentControl" destination="fmM-q4-Djo" id="HFo-MI-Ak4"/>
+                <outlet property="girlsSegment" destination="fmM-q4-Djo" id="8m0-Rb-Tg6"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,35 +17,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fmM-q4-Djo">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                    <rect key="frame" x="0.0" y="64" width="320" height="41"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="42" id="6S6-03-bjj"/>
+                        <constraint firstAttribute="height" constant="40" id="6S6-03-bjj"/>
                     </constraints>
                     <segments>
-                        <segment title="Beginners Workout"/>
-                        <segment title="Experience's Workout"/>
+                        <segment title="Exercises"/>
+                        <segment title="Workout"/>
                     </segments>
                 </segmentedControl>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zpP-rA-sbM">
-                    <rect key="frame" x="0.0" y="45" width="320" height="523"/>
+                    <rect key="frame" x="0.0" y="106" width="320" height="462"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="t2K-I8-SAq"/>
-                        <outlet property="delegate" destination="-1" id="11m-5B-pqh"/>
-                    </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="fmM-q4-Djo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7l8-Du-NXY"/>
+                <constraint firstItem="fmM-q4-Djo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="7l8-Du-NXY"/>
                 <constraint firstAttribute="bottom" secondItem="zpP-rA-sbM" secondAttribute="bottom" id="DN3-QE-qtW"/>
                 <constraint firstAttribute="trailing" secondItem="fmM-q4-Djo" secondAttribute="trailing" id="SiA-SV-Mei"/>
-                <constraint firstItem="zpP-rA-sbM" firstAttribute="top" secondItem="fmM-q4-Djo" secondAttribute="bottom" constant="3" id="YRC-F3-0sl"/>
+                <constraint firstItem="zpP-rA-sbM" firstAttribute="top" secondItem="fmM-q4-Djo" secondAttribute="bottom" constant="2" id="YRC-F3-0sl"/>
                 <constraint firstItem="zpP-rA-sbM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fiQ-x2-aOe"/>
                 <constraint firstAttribute="trailing" secondItem="zpP-rA-sbM" secondAttribute="trailing" id="mN6-L6-StC"/>
                 <constraint firstItem="fmM-q4-Djo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x9y-ro-gd4"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="257" y="265"/>
         </view>
     </objects>
 </document>

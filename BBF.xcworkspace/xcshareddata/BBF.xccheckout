@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C50A567-1B6D-4194-8C75-1564C06ADFB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BBF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89A5AC094BCE099A778F9DE91591FD7425E3F1D2</key>
+		<string>github.com:anirudhguptaA2/Gym_Workout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BBF.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89A5AC094BCE099A778F9DE91591FD7425E3F1D2</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:anirudhguptaA2/Gym_Workout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89A5AC094BCE099A778F9DE91591FD7425E3F1D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89A5AC094BCE099A778F9DE91591FD7425E3F1D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Gym_Workout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

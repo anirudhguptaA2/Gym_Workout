@@ -8,11 +8,25 @@
 
 import UIKit
 
-class BBFBoyViewController: UIViewController {
+@objc
+protocol BBFBoyViewControllerDelegate {
+    optional func toggleLeftPanel()
+    
+}
 
+class BBFBoyViewController: UIViewController {
+    var delegate:BBFBoyViewControllerDelegate?
+    
+    @IBAction func boyMenuButton(sender: AnyObject) {
+         delegate?.toggleLeftPanel?()
+    }
+    
     @IBOutlet weak var segmentControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
+    
     // Do any additional setup after loading the view.
     }
 

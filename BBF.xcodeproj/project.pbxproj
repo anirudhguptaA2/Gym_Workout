@@ -35,6 +35,13 @@
 		8F2CFA5F1C8ECEFE00C73693 /* GirlsBeginnersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2CFA5D1C8ECEFE00C73693 /* GirlsBeginnersTableViewCell.xib */; };
 		8F2CFA621C8ECF1700C73693 /* GirlsExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CFA601C8ECF1700C73693 /* GirlsExperienceTableViewCell.swift */; };
 		8F2CFA631C8ECF1700C73693 /* GirlsExperienceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2CFA611C8ECF1700C73693 /* GirlsExperienceTableViewCell.xib */; };
+		BC0761FE1C9172C400A455CB /* SlideFIle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0761FD1C9172C400A455CB /* SlideFIle.swift */; };
+		BC0762001C9176B600A455CB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0761FF1C9176B600A455CB /* ContainerViewController.swift */; };
+		BC0762021C91824F00A455CB /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0762011C91824F00A455CB /* MenuViewController.xib */; };
+		BC0762071C919ACF00A455CB /* menuViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0762051C919ACF00A455CB /* menuViewTableViewCell.swift */; };
+		BC0762081C919ACF00A455CB /* menuViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0762061C919ACF00A455CB /* menuViewTableViewCell.xib */; };
+		BC0FDEF21C9005BC0093DCAA /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC0FDEF11C9005BC0093DCAA /* download.jpeg */; };
+		BC0FDF361C9034360093DCAA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FDF341C9034360093DCAA /* MenuViewController.swift */; };
 		BC21F2C21C8D82C000BCF516 /* athlete-457064_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC21F2C11C8D82C000BCF516 /* athlete-457064_1280.jpg */; };
 		BC21F2C41C8D83AF00BCF516 /* fitness-818722_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC21F2C31C8D83AF00BCF516 /* fitness-818722_640.jpg */; };
 		C8404C48AE71AD9D29FE71EA /* Pods_BBF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8D55FAF48B3D23375FE30 /* Pods_BBF.framework */; };
@@ -73,6 +80,13 @@
 		8F2CFA5D1C8ECEFE00C73693 /* GirlsBeginnersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GirlsBeginnersTableViewCell.xib; sourceTree = "<group>"; };
 		8F2CFA601C8ECF1700C73693 /* GirlsExperienceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GirlsExperienceTableViewCell.swift; sourceTree = "<group>"; };
 		8F2CFA611C8ECF1700C73693 /* GirlsExperienceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GirlsExperienceTableViewCell.xib; sourceTree = "<group>"; };
+		BC0761FD1C9172C400A455CB /* SlideFIle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFIle.swift; sourceTree = "<group>"; };
+		BC0761FF1C9176B600A455CB /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		BC0762011C91824F00A455CB /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		BC0762051C919ACF00A455CB /* menuViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewTableViewCell.swift; sourceTree = "<group>"; };
+		BC0762061C919ACF00A455CB /* menuViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuViewTableViewCell.xib; sourceTree = "<group>"; };
+		BC0FDEF11C9005BC0093DCAA /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		BC0FDF341C9034360093DCAA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		BC21F2C11C8D82C000BCF516 /* athlete-457064_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "athlete-457064_1280.jpg"; sourceTree = "<group>"; };
 		BC21F2C31C8D83AF00BCF516 /* fitness-818722_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fitness-818722_640.jpg"; sourceTree = "<group>"; };
 		E343FB969988F0961CFB3CF4 /* Pods-BBF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBF/Pods-BBF.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +134,10 @@
 				070FAE521C8845AD00815964 /* Assets.xcassets */,
 				BC21F2C31C8D83AF00BCF516 /* fitness-818722_640.jpg */,
 				BC21F2C11C8D82C000BCF516 /* athlete-457064_1280.jpg */,
+				BC0FDEF11C9005BC0093DCAA /* download.jpeg */,
 				070FAE541C8845AD00815964 /* LaunchScreen.storyboard */,
 				070FAE571C8845AD00815964 /* Info.plist */,
+				BC0761FD1C9172C400A455CB /* SlideFIle.swift */,
 			);
 			path = BBF;
 			sourceTree = "<group>";
@@ -136,10 +152,12 @@
 		070FAE5E1C8845C500815964 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC0761FF1C9176B600A455CB /* ContainerViewController.swift */,
 				070FAE691C8849C800815964 /* BBFHomeViewController.swift */,
 				070FAE6D1C8849DB00815964 /* BBFCouplesViewController.swift */,
 				070FAE711C8849EB00815964 /* BBFBoyViewController.swift */,
 				070FAE751C8849F900815964 /* BBFGirlViewController.swift */,
+				BC0FDF341C9034360093DCAA /* MenuViewController.swift */,
 				0726CCF21C89578D00411AFF /* BoyExercisesViewController.swift */,
 				0726CCF61C8957AA00411AFF /* BoyWorkoutViewController.swift */,
 				0726CCFA1C8957C700411AFF /* GirlExercisesViewController.swift */,
@@ -148,6 +166,8 @@
 				0726CD131C896D8500411AFF /* BoyWorkoutTableViewCell.swift */,
 				8F2CFA5C1C8ECEFE00C73693 /* GirlsBeginnersTableViewCell.swift */,
 				8F2CFA601C8ECF1700C73693 /* GirlsExperienceTableViewCell.swift */,
+				BC0762051C919ACF00A455CB /* menuViewTableViewCell.swift */,
+				BC0762061C919ACF00A455CB /* menuViewTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -159,6 +179,7 @@
 				070FAE6E1C8849DB00815964 /* BBFCouplesViewController.xib */,
 				070FAE721C8849EB00815964 /* BBFBoyViewController.xib */,
 				070FAE761C8849F900815964 /* BBFGirlViewController.xib */,
+				BC0762011C91824F00A455CB /* MenuViewController.xib */,
 				0726CCF31C89578D00411AFF /* BoyExercisesViewController.xib */,
 				0726CCF71C8957AA00411AFF /* BoyWorkoutViewController.xib */,
 				0726CCFB1C8957C700411AFF /* GirlExercisesViewController.xib */,
@@ -261,6 +282,7 @@
 				0726CD011C8957D800411AFF /* GirlWorkoutViewController.xib in Resources */,
 				8F2CFA631C8ECF1700C73693 /* GirlsExperienceTableViewCell.xib in Resources */,
 				BC21F2C41C8D83AF00BCF516 /* fitness-818722_640.jpg in Resources */,
+				BC0FDEF21C9005BC0093DCAA /* download.jpeg in Resources */,
 				0726CCFD1C8957C700411AFF /* GirlExercisesViewController.xib in Resources */,
 				070FAE561C8845AD00815964 /* LaunchScreen.storyboard in Resources */,
 				070FAE781C8849F900815964 /* BBFGirlViewController.xib in Resources */,
@@ -271,6 +293,8 @@
 				0726CCF91C8957AA00411AFF /* BoyWorkoutViewController.xib in Resources */,
 				070FAE7C1C88516F00815964 /* Leopard2.mov in Resources */,
 				070FAE511C8845AD00815964 /* Main.storyboard in Resources */,
+				BC0762021C91824F00A455CB /* MenuViewController.xib in Resources */,
+				BC0762081C919ACF00A455CB /* menuViewTableViewCell.xib in Resources */,
 				BC21F2C21C8D82C000BCF516 /* athlete-457064_1280.jpg in Resources */,
 				0726CD121C896D7100411AFF /* BoyExercisesTableViewCell.xib in Resources */,
 			);
@@ -339,6 +363,10 @@
 				8F2CFA621C8ECF1700C73693 /* GirlsExperienceTableViewCell.swift in Sources */,
 				0726CD151C896D8500411AFF /* BoyWorkoutTableViewCell.swift in Sources */,
 				0726CCFC1C8957C700411AFF /* GirlExercisesViewController.swift in Sources */,
+				BC0761FE1C9172C400A455CB /* SlideFIle.swift in Sources */,
+				BC0762001C9176B600A455CB /* ContainerViewController.swift in Sources */,
+				BC0762071C919ACF00A455CB /* menuViewTableViewCell.swift in Sources */,
+				BC0FDF361C9034360093DCAA /* MenuViewController.swift in Sources */,
 				070FAE6F1C8849DB00815964 /* BBFCouplesViewController.swift in Sources */,
 				0726CCF81C8957AA00411AFF /* BoyWorkoutViewController.swift in Sources */,
 				070FAE771C8849F900815964 /* BBFGirlViewController.swift in Sources */,
